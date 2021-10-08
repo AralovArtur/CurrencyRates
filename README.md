@@ -18,9 +18,9 @@ BE healthcheck monitoring  [backendi url:port]/actuator URL-il.
 
 # BUILD
 ## **Build back-end**
-mvn package
+mvn package <br>
 java -jar backend/target/CurrencyRates-0.0.1-SNAPSHOT.jar
 
 ## **Build front-end**
-npm install
+npm install <br>
 npm start
