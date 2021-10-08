@@ -1,0 +1,40 @@
+export const API_BASE_URL =
+  process.env.REACT_APP_API_BASE_URL || "http://localhost:8080";
+export const ACCESS_TOKEN = "accessToken";
+export const IS_AUTHENTICATED = "false";
+export const CURRENT_USER = null;
+export const CURRENCIES = [
+  "EUR",
+  "USD",
+  "JPY",
+  "BGN",
+  "CZK",
+  "DKK",
+  "GBP",
+  "HUF",
+  "PLN",
+  "RON",
+  "SEK",
+  "CHF",
+  "ISK",
+  "NOK",
+  "HRK",
+  "RUB",
+  "TRY",
+  "AUD",
+  "BRL",
+  "CAD",
+  "CNY",
+  "HKD",
+  "IDR",
+  "ILS",
+  "INR",
+  "KRW",
+  "MXN",
+  "MYR",
+  "NZD",
+  "PHP",
+  "SGD",
+  "THB",
+  "ZAR",
+];

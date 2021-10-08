@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.4.xsd">
+
+        <changeSet id="create_currency_rate" author="artur-dev" runOnChange="false" >
+            <sqlFile path="createDb/createCurrencyRate.sql" relativeToChangelogFile="true" splitStatements="true" encoding="utf8" />
+        </changeSet>
+
+        <changeSet id="create_role" author="artur-dev" runOnChange="false" >
+            <sqlFile path="createDb/createRole.sql" relativeToChangelogFile="true" splitStatements="true" encoding="utf8" />
+        </changeSet>
+
+        <changeSet id="insert_role" author="artur-dev" runOnChange="false" >
+            <sqlFile path="insertDb/insertRole.sql" relativeToChangelogFile="true" splitStatements="true" encoding="utf8" />
+        </changeSet>
+
+        <changeSet id="create_user" author="artur-dev" runOnChange="false" >
+            <sqlFile path="createDb/createUser.sql" relativeToChangelogFile="true" splitStatements="true" encoding="utf8" />
+        </changeSet>
+
+        <changeSet id="create_user_roles" author="artur-dev" runOnChange="false" >
+            <sqlFile path="createDb/createUserRoles.sql" relativeToChangelogFile="true" splitStatements="true" encoding="utf8" />
+        </changeSet>
+
+        <changeSet id="create_history" author="artur-dev" runOnChange="false" >
+            <sqlFile path="createDb/createHistory.sql" relativeToChangelogFile="true" splitStatements="true" encoding="utf8" />
+        </changeSet>
+</databaseChangeLog>
